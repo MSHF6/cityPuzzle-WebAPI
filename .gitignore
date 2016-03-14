@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ###MacFile###
 .DS_Store
 
@@ -13,6 +14,12 @@ migrations
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+=======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+>>>>>>> be307970fa87e1ffac6c1a1b2624e05f72188c81
 
 # C extensions
 *.so
@@ -25,6 +32,10 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+<<<<<<< HEAD
+=======
+.eggs/
+>>>>>>> be307970fa87e1ffac6c1a1b2624e05f72188c81
 lib/
 lib64/
 parts/
@@ -48,9 +59,18 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .coverage
+<<<<<<< HEAD
 .cache
 nosetests.xml
 coverage.xml
+=======
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+>>>>>>> be307970fa87e1ffac6c1a1b2624e05f72188c81
 
 # Translations
 *.mo
@@ -65,6 +85,7 @@ docs/_build/
 # PyBuilder
 target/
 
+<<<<<<< HEAD
 
 ###SublimeText###
 
@@ -83,3 +104,7 @@ target/
 # sftp configuration file
 sftp-config.json
 
+=======
+#Ipython Notebook
+.ipynb_checkpoints
+>>>>>>> be307970fa87e1ffac6c1a1b2624e05f72188c81
