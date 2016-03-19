@@ -8,9 +8,10 @@ def create_app(config):
 	app = Flask(__name__)
 	app.config.from_object(config)
 	# 載入 db model
+	from db.common import *
 	from db.user import *
-
-
+	from db.store import *
+	from db.discount import *
 	db.init_app(app)
 
 	# # 安裝 JSGlue
