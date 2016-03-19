@@ -19,8 +19,8 @@ def create_app(config):
 	# jsglue.init_app(app)
 
 	# # Session Secret Key
-	# app.secret_key = os.urandom(24).encode('hex')
-	# print app.secret_key
+	app.secret_key = os.urandom(24).encode('hex')
+	print app.secret_key
 
 	# # 擴充 url map
 	# app.url_map.converters['regex'] = RegexConverter
