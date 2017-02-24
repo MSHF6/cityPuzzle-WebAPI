@@ -6,8 +6,8 @@
 
 
 DATABASE_URL = {
-	'DEV_MYSQL': 'mysql://root:pass@word1@localhost/smartycityNTU',
-	'TEST_MYSQL': 'mysql://root:pass@word1@localhost/tsmartycityNTU'
+	'DEV_MYSQL': 'mysql://root:pass@word1@localhost/cityPuzzleDB',
+	'TEST_MYSQL': 'mysql://root:pass@word1@localhost/tcityPuzzleDB'
 }
 
 
